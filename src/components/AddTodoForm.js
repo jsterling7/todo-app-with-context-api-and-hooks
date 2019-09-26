@@ -3,7 +3,7 @@ import SubmitButton from './pallet/SubmitButton';
 import TextInput from './pallet/TextInput';
 
 
-const AddTodoFrom = ({ addTodo }) => {
+const AddTodoForm = ({ addTodo }) => {
 
     const textInputRef = React.useRef(null);
 
@@ -57,4 +57,4 @@ const AddTodoFrom = ({ addTodo }) => {
 };
 
 
-export default AddTodoFrom;
+export default AddTodoForm;
